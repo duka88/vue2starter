@@ -1,0 +1,53 @@
+//----------  variables
+//------------------------------------------------------------------------------
+
+$font-default: Helvetica;
+
+// Colors
+$white: #fff;
+$black: #000;
+$blueGradient: #0070c3;
+$blueGradient2: #1669a5;
+$blue: #0070c3;
+$blue-dark: #223d83;
+$grey: #ccc;
+$grey-dark: #747474;
+
+$site-colors: (
+	'black': $black,
+	'white': $white
+) !default;
+
+//----------  Bootstrap grid
+//------------------------------------------------------------------------------
+
+$enable-grid-classes: true !default;
+
+//----------  Media queries breakpoints - Grid breakpoint
+//------------------------------------------------------------------------------
+
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1025px,
+	xxl: 1441px
+) !default;
+
+//----------  Grid containers
+//------------------------------------------------------------------------------
+
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1140px
+) !default;
+
+//----------  Grid columns
+//------------------------------------------------------------------------------
+
+$grid-columns: 12 !default;
+$grid-gutter-width: 30px !default;
+
